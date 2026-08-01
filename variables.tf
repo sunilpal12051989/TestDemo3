@@ -5,7 +5,7 @@ variable "location" {
 
 variable "environment" {
   type    = string
-  default = "prod1"
+  default = "ppeprod"
 }
 
 variable "project" {
