@@ -9,10 +9,10 @@ terraform {
 
   cloud {
     
-    organization = "ntms-org"
+    organization = "sunil-ntms-org"
 
     workspaces {
-      name = "ntms-terraform-workshop-4"
+      name = "sunil-ntms-terraform-workshop-4"
     }
   }
 }
