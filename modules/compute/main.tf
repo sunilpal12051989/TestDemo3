@@ -14,6 +14,7 @@ resource "azurerm_network_interface" "nic" {
 #vm
 resource "azurerm_windows_virtual_machine" "vm" {
   name                = "${var.environment}-${var.project}-vm-${count.index + 1}"
+  computer_name       = "sunil-vm-${count.index + 1}"
   count               = var.vm_count
   location            = var.location
   resource_group_name = var.resource_group_name
