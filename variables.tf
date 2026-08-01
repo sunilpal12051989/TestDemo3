@@ -5,12 +5,12 @@ variable "location" {
 
 variable "environment" {
   type    = string
-  default = "prod"
+  default = "dev"
 }
 
 variable "project" {
   type    = string
-  default = "tf"
+  default = "sunil-tf"
 }
 
 variable "admin_username" {
